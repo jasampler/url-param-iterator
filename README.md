@@ -12,7 +12,7 @@ Notes:
 
 Examples:
 ```
-ParamIterator it = new URLParamIterator("AA?k=v&k=&k&=&");
+URLParamIterator it = new URLParamIterator("AA?k=v&k=&k&=&");
 while (it.next()) {
     System.out.println(it.getKey() + "=" + it.getValue());
 }
